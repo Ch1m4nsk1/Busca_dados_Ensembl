@@ -16,6 +16,7 @@ Esse projeto foi feito de forma rápida, afim de otimizar o tempo  empregrado na
 
  
  * Description (EN):
+
 This script automates the retrieval of data from the Ensembl database using the BioMart tool.
 It performs the following steps:
   1. Accesses "Ensembl Genes 113 and the dataset "Human genes (GRCh38.p14)".
