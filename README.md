@@ -1,6 +1,7 @@
 Projeto: Busca Automatizada no Ensembl via BioMart / Automated Ensembl Data Retrieval via BioMart
 
-Descrição (PT):
+*Descrição (PT):
+
 Este script automatiza a busca de dados no banco de dados Ensembl utilizando a ferramenta BioMart. 
 Realiza os seguintes passos:
   1. Acessa o "Ensembl Genes 113" e o dataset "Human genes (GRCh38.p14)".
@@ -12,7 +13,6 @@ Realiza os seguintes passos:
 Este código foi desenvolvido como parte de uma tarefa para a disciplina de Evolução Molecular do curso de biologia da UFPR, ministrado pela professora Desiree.
 
 Esse projeto foi feito de forma rápida, afim de otimizar o tempo  empregrado na captura das informações e evitar o uso da interface gráfica. Ademais, considerei interessante demonstrar  aos meus  colegas biólogos como a programação pode reduzir significativamente o tempo dispendido em uma tarefa que, se feita manualmente levaria horas para buscar os genes em todos os cromossomos.
- 
 
  
  * Description (EN):
