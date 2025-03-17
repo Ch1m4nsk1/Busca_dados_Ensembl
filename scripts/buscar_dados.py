@@ -1,5 +1,5 @@
 ''' 
-* Projeto: Busca Automatizada no Ensembl via BioMart / Automated Ensembl Data Retrieval via BioMart
+ * Projeto: Busca Automatizada no Ensembl via BioMart / Automated Ensembl Data Retrieval via BioMart
  * 
  * Descrição (PT):
  * Este script automatiza a busca de dados no banco de dados Ensembl utilizando a ferramenta BioMart. 
@@ -8,13 +8,13 @@
  *   2. Filtra os dados por um cromossomo específico e bandas cromossômicas (ex.: cromossomo 21, bandas q21.1 e q21.2 ...).
  *   3. Seleciona os atributos: Gene Stable ID, Gene name, Protein Stable ID e UniProtKB/Swiss-Prot ID.
  *   4. Conta os resultados e realiza o download dos dados em formato CSV para a pasta de trabalho.
- * 
- * Observação: Este código foi desenvolvido como parte de uma tarefa para a disciplina de Evolução Molecular do curso
- * de Biologia da UFPR, ministrado pela professora Desiree.
- * Foi feito às pressas e de forma improvisada, apenas para evitar evitar que eu precisasse usar a interface gráfica para
- * obter o que eu desejava. Também quis demonstrar aos meus futuros colegas biólogos como a programação pode reduzir
- * significativamente o tempo gasto em uma tarefa, algo que, se feito manualmente, levaria horas para buscar os genes
- * em todos os cromossomos.
+ *
+ * Observação: Este código foi desenvolvido como parte de uma tarefa para a disciplina de Evolução Molecular do curso de 
+ * Biologia da UFPR, ministrado pela professora Desiree.
+ * Esse projeto foi feito de forma rápida, afim de otimizar o tempo  empregrado na captura das informações e evitar o uso da 
+ * interface gráfica. Ademais, considerei interessante demonstrar  aos meus  colegas biólogos como a programação pode reduzir 
+ * significativamente o tempo dispendido em uma tarefa que, se feita manualmente levaria horas para buscar os genes em todos 
+ * os cromossomos.
  * 
  *
  * 
@@ -26,14 +26,15 @@
  *   3. Selects the attributes: Gene Stable ID, Gene name, Protein Stable ID, and UniProtKB/Swiss-Prot ID.
  *   4. Counts the results and enables CSV download of the data.
  * 
- * Note: This code was developed as part of an assignment for the Molecular Evolution course in the Biology program at UFPR,
- * taught by Professor Desiree. It was created quickly and in a somewhat improvised manner, simply to avoid having to use the
- * graphical interface to obtain the desired results. I also wanted to demonstrate to my future colleagues in biology how
- * programming can significantly reduce the time spent on a task, something that, if done manually, would take hours to search
- * for genes across all cromossomos.
+ * Note: This code was developed as part of an assignment for the Molecular Evolution course in the Biology program at UFPR, 
+ * taught by Professor Desiree.
+ * This project was created quickly to optimize the time spent retrieving the information and to avoid using the graphical 
+ * interface. Furthermore, I found it interesting to demonstrate to my fellow biologists how programming can significantly 
+ * reduce the time spent on a task that, if done manually, would take hours to search for genes across all chromosomes.
  * 
  * Author: João Guilherme Chimanski (Ch1m4nsk1)
  * Data: 16/03/2025
+
 '''
 
 import requests
