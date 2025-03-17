@@ -1,5 +1,4 @@
-''' 
-* Projeto: Busca Automatizada no Ensembl via BioMart / Automated Ensembl Data Retrieval via BioMart
+ * Projeto: Busca Automatizada no Ensembl via BioMart / Automated Ensembl Data Retrieval via BioMart
  * 
  * Descrição (PT):
  * Este script automatiza a busca de dados no banco de dados Ensembl utilizando a ferramenta BioMart. 
